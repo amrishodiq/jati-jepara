@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <Button
+        android:id="@+id/debug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Debug"/>
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Info"/>
+
+    <Button
+        android:id="@+id/error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Error"/>
+
+    <Button
+        android:id="@+id/error_exception"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Error with Exception"/>
+
+    <Button
+        android:id="@+id/error_unhandled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Error with Unhandled Exception"/>
+
+</LinearLayout>
